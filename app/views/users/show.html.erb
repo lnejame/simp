@@ -1,0 +1,31 @@
+
+	<p id="notice"><%= notice %></p>
+	
+	<p>
+	  <b>Name:</b>
+	  <%= @user.name %>
+	</p>
+	
+	<p>
+	  <b>Email:</b>
+	  <%= @user.email %>
+	</p>
+	
+	<p>
+	  <b>Sex:</b>
+	  <%= @user.sex %>
+	</p>
+	
+	<p>
+	  <b>Startdate:</b>
+	  <%= @user.startdate %>
+	</p>
+
+
+	
+
+
+
+
+<%= link_to 'Edit', edit_user_path(@user), :class => "btn btn-primary" %> |
+<%= link_to 'Back', users_path %>
